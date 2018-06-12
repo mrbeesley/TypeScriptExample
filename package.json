@@ -1,0 +1,28 @@
+{
+  "name": "TypeScriptExample",
+  "version": "1.0.0",
+  "description": "messing around with learning typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./helloworld.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrbeesley/TypeScriptExample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrbeesley/TypeScriptExample/issues"
+  },
+  "homepage": "https://github.com/mrbeesley/TypeScriptExample#readme",
+  "devDependencies": {
+    "@types/node": "^10.3.0",
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5",
+    "ts-node": "^6.0.5",
+    "typescript": "^2.9.1"
+  }
+}
